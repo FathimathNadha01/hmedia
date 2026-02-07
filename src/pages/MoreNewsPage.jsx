@@ -17,6 +17,7 @@ import CustomLoader from "../components/user/CustomLoader";
 import { InlineGoogleAd } from "../components/user/GoogleAd";
 import BottomAdBanner from "../components/user/BottomAdBanner";
 import FullscreenAd from "../components/user/FullscreenAd";
+import PopupAd from "../components/user/PopupAd";
 
 function MoreNewsPage() {
   const { baseURL } = useApi();
@@ -147,8 +148,9 @@ function MoreNewsPage() {
         </aside>
       </div>
 
-      {/* <BottomAdBanner /> */}
-      {/* <FullscreenAd /> */}
+      {/* <BottomAdBanner /> 
+      <FullscreenAd />
+      <PopupAd/> */}
     </main>
   );
 }

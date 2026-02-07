@@ -37,7 +37,7 @@ export default function NewsColumn({
     text = text.replace(/<[^>]+>/g, " ");
 
     // Remove prefixes like "NEWS:"
-    text = text.replace(/^[^:]+:\s*/, "");
+    // text = text.replace(/^[^:]+:\s*/, "");
 
     // Normalize spaces
     text = text.replace(/\s+/g, " ").trim();

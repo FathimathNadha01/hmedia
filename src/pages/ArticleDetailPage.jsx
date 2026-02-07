@@ -17,6 +17,7 @@ import { InlineGoogleAd } from "../components/user/GoogleAd";
 import ShareThisInline from "../components/user/ShareThisInline";
 import BottomAdBanner from "../components/user/BottomAdBanner";
 import FullscreenAd from "../components/user/FullscreenAd";
+import PopupAd from "../components/user/PopupAd";
 
 const decodeHTML = (html = "") => {
   if (typeof window === "undefined") return html;
@@ -333,8 +334,9 @@ function ArticleDetailPage() {
           </aside>
         </div>
 
-        {/* <BottomAdBanner /> */}
-        {/* <FullscreenAd /> */}
+        {/* <BottomAdBanner /> 
+        <FullscreenAd />
+        <PopupAd/> */}
       </main>
 
       <div>

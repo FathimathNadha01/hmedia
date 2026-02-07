@@ -144,9 +144,9 @@ function LatestNewsPage() {
         </aside>
       </div>
 
-      {/* <BottomAdBanner /> */}
-      {/* <FullscreenAd /> */}
-      {/* <PopupAd /> */}
+      {/* <BottomAdBanner /> 
+       <FullscreenAd /> 
+       <PopupAd /> */}
     </main>
   );
 }

@@ -70,7 +70,7 @@ const FullscreenAd = () => {
   const adImage = ads[currentAdIndex];
 
   return (
-    <div className="fixed inset-0 z-[9999] bg-black flex items-center justify-center p-4">
+    <div className="fixed inset-0 z-[9999] bg-black flex items-center justify-center">
       {/* Close Button */}
       <button
         onClick={() => setShow(false)}
@@ -81,7 +81,7 @@ const FullscreenAd = () => {
       </button>
 
       {/* Ad Container */}
-      <div className="relative w-full h-full flex gap-0 max-w-6xl rounded-lg overflow-hidden">
+      <div className="relative w-full h-full overflow-hidden flex">
         {/* Left Half */}
         <div className="relative w-1/2 h-full overflow-hidden animate-slide-left">
           <div className="absolute top-0 left-0 w-[200%] h-full">
@@ -95,7 +95,7 @@ const FullscreenAd = () => {
           <img
             src={adImage}
             alt="Left Ad"
-            className="absolute top-0 left-0 w-[200%] h-full max-w-none object-contain z-10"
+            className="absolute top-0 left-0 w-full h-full object-cover z-10"
           />
         </div>
 
@@ -112,7 +112,7 @@ const FullscreenAd = () => {
           <img
             src={adImage}
             alt="Right Ad"
-            className="absolute top-0 right-0 w-[200%] h-full max-w-none object-contain z-10"
+            className="absolute top-0 right-0 w-full h-full object-cover z-10"
           />
         </div>
       </div>

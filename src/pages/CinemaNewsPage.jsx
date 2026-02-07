@@ -18,6 +18,7 @@ import { useSearchParams } from "react-router-dom";
 import { InlineGoogleAd } from "../components/user/GoogleAd";
 import BottomAdBanner from "../components/user/BottomAdBanner";
 import FullscreenAd from "../components/user/FullscreenAd";
+import PopupAd from "../components/user/PopupAd";
 
 function CinemaNewsPage() {
   const [searchParams] = useSearchParams();
@@ -149,8 +150,9 @@ function CinemaNewsPage() {
         </aside>
       </div>
 
-      {/* <BottomAdBanner /> */}
-      {/* <FullscreenAd /> */}
+      {/* <BottomAdBanner /> 
+      <FullscreenAd />
+      <PopupAd/> */}
     </main>
   );
 }
