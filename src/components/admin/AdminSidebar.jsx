@@ -30,13 +30,14 @@ const MENU_ITEMS = [
   { name: "Trending News", href: "/hmedianews/trendingnews", icon: TrendingUp },
   { name: "Latest News", href: "/hmedianews/latestnews", icon: Newspaper },
   { name: "Cinema News", href: "/hmedianews/cinemanews", icon: Film },
+  { name: "Business Stories", href: "/hmedianews/more", icon: MoreHorizontal },
   { name: "Meet The Person", href: "/hmedianews/meettheperson", icon: Users },
   {
     name: "Teaser And Promo",
     href: "/hmedianews/teaserandpromo",
     icon: Clapperboard,
   },
-  { name: "Business Stories", href: "/hmedianews/more", icon: MoreHorizontal },
+  
   { name: "Advertisement", href: "/hmedianews/advertisement", icon: Megaphone },
   { name: "Bottom AD Banner", href: "/hmedianews/bottomadvertisement", icon: Megaphone },
   { name: "Full Screen AD", href: "/hmedianews/fullscreenad", icon: Megaphone },

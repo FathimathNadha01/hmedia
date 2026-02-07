@@ -14,8 +14,9 @@ import {
   updatePopupAd,
   deletePopupAd,
 } from "../../services/popupAdService";
+import PopupAdFormPopup from "../../components/admin/PopupAdFormPopup";
 
-function AdminFullScreenAd() {
+function Adminpopupad() {
   const { baseURL } = useApi();
   const [ads, setAds] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
@@ -239,7 +240,7 @@ function AdminFullScreenAd() {
       )}
 
       {/* Add/Edit Popup */}
-      <FullScreenAdFormPopup
+      <PopupAdFormPopup
         isOpen={isPopupOpen}
         onClose={() => setIsPopupOpen(false)}
         onSubmit={handleFormSubmit}
@@ -260,4 +261,4 @@ function AdminFullScreenAd() {
   );
 }
 
-export default AdminFullScreenAd;
+export default Adminpopupad;

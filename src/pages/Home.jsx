@@ -371,20 +371,28 @@ function Home() {
       </section>
       <section className="w-full">
         <div className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
-          <div className="mb-6 xl:mb-0">
+          {/* <div className="mb-6 xl:mb-0">
             <NewsColumn
               title="LATEST NEWS"
               items={latestNews}
               loading={loadingLatest}
               category="news"
             />
-          </div>
+          </div> */}
           <div className="mb-6 lg:mb-0">
             <NewsColumn
               title="Cinema News"
               items={cinemaNews}
               loading={loadingCinema}
               category="cinema-news"
+            />
+          </div>
+          <div className="mb-6 xl:mb-0">
+            <NewsColumn
+              title="LATEST NEWS"
+              items={latestNews}
+              loading={loadingLatest}
+              category="news"
             />
           </div>
           <div className="mb-6 lg:mb-0">
